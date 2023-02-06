@@ -1,0 +1,53 @@
+.profile {
+  height: 100vh;
+  color: #fff;
+}
+.profile__body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 800px;
+  border-radius: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  h1 {
+    font-size: 60px;
+    font-weight: 400;
+    border: 1px solid #282c2d;
+    margin-bottom: 20px;
+  }
+}
+.profile__info {
+  display: flex;
+  .nav__logo {
+    height: 100px;
+  }
+}
+.profile__details {
+  color: #fff;
+  margin-left: 25px;
+  flex: 1;
+  h2 {
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  .profile__plans {
+    h3{
+      border-bottom: 1px solid #282c2d;
+      padding-bottom: 10px;
+    }
+
+    .profile__signout{
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 10px 20px;
+      width: 100%;
+      margin-top: 15px;
+      color: #fff;
+      background: #e50914;
+    }
+  }
+}
